@@ -13,6 +13,7 @@ body {
 
 #game > div {
     display: flex;
+    justify-content: center;
     align-items: center;
     position: relative;
     margin: 20px;
@@ -20,6 +21,8 @@ body {
     height: 200px;
     width: 200px;
     background-color: black;
+    box-sizing: border-box;
+    padding: 60px;
 }
 
 #game > div:hover {
