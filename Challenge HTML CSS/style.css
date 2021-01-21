@@ -6,8 +6,9 @@ body {
 
 #game {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    background-color: gray;
+    background-color: rgb(190, 190, 190);
     width: 800px;
 }
 
@@ -22,7 +23,7 @@ body {
     width: 200px;
     background-color: black;
     box-sizing: border-box;
-    padding: 60px;
+    padding: 15px;
 }
 
 #game > div:hover {
